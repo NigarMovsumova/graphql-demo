@@ -29,3 +29,35 @@ cd lodash </pre>
 http://localhost:4000/graphql & http://localhost:3000/ must be up by now.
 
 Use http://localhost:4000/graphql to run your queries. 
+
+Sample queries: 
+<ol>
+    <li>
+    Get user with id = 1 and return fields id, firstName & age: 
+    <pre>{
+  user(id: "1") {
+    id, 
+    firstName, 
+    age
+  }
+} </pre>
+    </li>
+    <li>
+    Add new user: 
+    <pre>mutation {
+  addUser(firstName: "Trololo", age: 36){
+    id
+  }
+}</pre>
+    </li>
+    <li>
+    Update user: 
+    <pre>mutation {
+  updateUser(id: "1", firstName: "Baykanur"){
+    id
+  }
+}</pre>
+    </li>
+    
+     
+</ol>
