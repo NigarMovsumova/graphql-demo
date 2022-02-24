@@ -8,7 +8,7 @@ You can use yarn, but commands are provided here are just for npm.
 
 1. Make sure Npm is installed.
 
-2. Run the command to install dependencies:
+2. Install dependencies:
 <pre>
 npm install --save express express-graphql graphql lodash json-server axios
 </pre>
@@ -26,6 +26,6 @@ cd lodash </pre>
 
 <pre> node server.js </pre>
 
-Both http://localhost:4000/graphql and http://localhost:3000/ must be up by now.
+http://localhost:4000/graphql & http://localhost:3000/ must be up by now.
 
 Use http://localhost:4000/graphql to run your queries. 
